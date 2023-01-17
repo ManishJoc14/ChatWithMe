@@ -239,31 +239,33 @@ input[type="checkbox"] {
 }
 
 @media (max-width:477px) {
+    .child1 h1 {
+        margin-bottom: 0px;
+    }
+    form {
+        height: 340px;
+    }
     .container {
         display: flex;
         flex-wrap: wrap;
     }
 
     .container .child1 {
-        height: 70vh;
+        height: 595px;
         width: 100%;
         border: none;
         border-radius: 0;
     }
-    .child1 h1 {
-        margin-bottom: -50px;
-    }
-
     .child2 {
-        margin: -10vh 0 0 0;
-        height: 40vh;
+        margin: -85px 0 0 0;
+        height: 340px;
         width: 100%;
         border-top: 4px solid rgb(169, 145, 255);
         border-top-right-radius: 55px;
         border-top-left-radius: 55px;
     }
     #logoApp {
-        height: 5%;
+        height: 43px;
         width: 100%;
         top: 0;
         background-color: black;
@@ -277,6 +279,10 @@ input[type="checkbox"] {
         width: 100%;
         margin-top: 10px;
         background-color: rgb(127 32 217);
+    }
+    .signup {
+        height: 340px;
+        margin-top: 0;
     }
    
 }

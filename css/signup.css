@@ -74,6 +74,8 @@ form {
 @media (max-width:477px) {
     #logoApp {
         top: 0;
+        height: 50px;
+        position: fixed;
     }
     #logoApp img {
         height: 50px;
@@ -83,8 +85,8 @@ form {
         margin-bottom: 0;
     }
     .child2 {
-        margin: -10vh 0 0 0;
-        height: 32vh;
+        margin: -85px 0 0 0;
+        height: 272px;
     }
     input {
         height: 35px;
@@ -94,6 +96,7 @@ form {
     }
     form {
         justify-content: flex-start;
+        height: 425px;
     }
     .btn {
         margin-top: 6px;
